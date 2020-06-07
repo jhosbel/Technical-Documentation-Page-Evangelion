@@ -6,7 +6,7 @@
 
 body {
     display: flex;
-    background: url(../img/fondo.png);
+    background: url('../img/fondo.png');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
