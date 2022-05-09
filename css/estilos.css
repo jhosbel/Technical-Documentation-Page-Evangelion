@@ -92,10 +92,28 @@ main {
     body {
         background-size: cover;
     }
+    .titulos {
+        margin-top: 25px;
+    }
+    .img-logo {
+        display: none;
+    }
+    .header-general {
+        border-right: none;
+        width: 100%;
+    }
     .lista-indice {
-        height: 100%;
-        margin-top: 40%;
-        font-size: 15px;
+        height: 5%;
+        margin-top: 0%;
+        font-size: 10px;
+        display: flex;
+        background-color: rgb(161, 96, 223);
+    }
+    .indice {
+        display: none;
+    }
+    main {
+        margin-left: 0%;
     }
 }
 @media (min-width:800px) {
